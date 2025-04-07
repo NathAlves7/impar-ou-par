@@ -3,7 +3,7 @@ function conversor() {
   escolhaJogador = prompt("Esolha um número entre 1 e 5.");
   escolhaComputador = Math.floor(Math.random() * 5) + 1;
   if (escolhaJogador > 5) {
-    alert("Escolha um número entre 1 e 5!!!")
+    alert("Jogue novamente!")
   }
   if (escolhaJogador == escolhaComputador) {
     alert("PAR GANHOU");
